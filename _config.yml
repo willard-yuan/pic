@@ -1,0 +1,10 @@
+# Site settings
+title: PicSearch, CNN for CBIR
+tag_text: PicSearch
+tag_subtext: CNN Web Demo for Image Retrieval
+description: A Image Search Engine Based on Convolutional Neural Network Feature.
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
