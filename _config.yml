@@ -5,6 +5,9 @@ tag_subtext: CNN Web Demo for Image Retrieval
 description: A Image Search Engine Based on Convolutional Neural Network Feature.
 
 # Build settings
-markdown: kramdown
-
-exclude: ["README.md"]
+# Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+safe: true
+lsi: false
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "underline"]
