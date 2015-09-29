@@ -17,16 +17,22 @@ The PicSearch is running on Caltech256 image dataset, which contains 29780 image
 ##How to run the code
 The code is written by Python, and the web server is cherrypy, so It's very easy to understand the code and to run the code. The structure of **PicSearch** is as follows: 
 
-```bash
-
-
+```sh
+├── 256feat2048Norml.mat
+├── bootstrap
+├── favicon.ico
+├── searchEnginePython.py
+├── service-server.conf
+├── service.conf
+├── style.css
+└── thumbnails
 ```
 
 To run the code successfully, You are suggested to following the below steps:
 
 - set the setting in `service.conf`:
 
-```bash
+```sh
 [global]
 server.socket_host = "127.0.0.1"
 server.socket_port = 8080
@@ -45,7 +51,7 @@ Changes the path of `tools.staticdir.root` to your path.
 
 - run the server:
 
-```bash
+```sh
 python searchEnginePython.py
 ```
 
