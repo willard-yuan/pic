@@ -143,7 +143,7 @@ td, th {
 }
 
 pre, code {
-  font-family: inherit;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
   background-color: #eee;
 }
 
