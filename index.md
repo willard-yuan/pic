@@ -6,7 +6,7 @@ layout: default
 **PicSearch** is an image search engine based on Convolutional Neural Network (CNN) feature. It's a very simple demo and it just showes the performance of CNN for image retrieval. The demo site can access to [**demo**](http://search.yongyuan.name/).
 
 <object width="526" height="374">
-<param name="movie" value="http://player.youku.com/player.php/Type/Folder/Fid/23766923/Ob/1/sid/XOTM4MzgxODY4/v.swf"></param>
+<param name="movie" value="http://player.youku.com/player.php/sid/XMTM0NzYyMzE4OA==/v.swf"></param>
 <param name="allowFullScreen" value="true" />
 <param name="allowScriptAccess" value="always"/>
 <param name="wmode" value="transparent"></param>
