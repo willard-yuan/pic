@@ -2,14 +2,23 @@
 layout: default
 ---
 
-##PicSearch brief introduction
+##Brief introduction
 **PicSearch** is an image search engine based on Convolutional Neural Network (CNN) feature. It's a very simple demo and it just showes the performance of CNN for image retrieval. The demo site can access to [**demo**](http://search.yongyuan.name/).
+
+<object width="526" height="374">
+<param name="movie" value="http://player.youku.com/player.php/Type/Folder/Fid/23766923/Ob/1/sid/XOTM4MzgxODY4/v.swf"></param>
+<param name="allowFullScreen" value="true" />
+<param name="allowScriptAccess" value="always"/>
+<param name="wmode" value="transparent"></param>
+<param name="bgColor" value="#ffffff"></param>
+<embed src="http://player.youku.com/player.php/sid/XNTc3NzQ0NTQw/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+</object>
 
 ##Download the code and dataset
 The PicSearch is running on Caltech256 image dataset, which contains 29780 images with 256 categories. Before running the project, you must download the following code and dataset:
 
-1. PicSearch [code](https://github.com/willard-yuan/CNN-Web-Demo-for-Image-Retrieval)
-2. The features extract by CNN on Caltech256 [256feat2048Norml.mat](http://pan.baidu.com/s/14YAeE)
+1. PicSearch [code](https://github.com/willard-yuan/CNN-Web-Demo-for-Image-Retrieval).
+2. The features extract by CNN on Caltech256 [256feat2048Norml.mat](http://pan.baidu.com/s/14YAeE).
 3. The [thumbnails](http://pan.baidu.com/s/1kT4atkb) of Caltech256. The thumbnails are just for showing the search result, you can replace it by the original image dataset.
 
 **Note**: to test it on other dataset, you must extract the features first. You can use [CNN-for-Image-Retrieval](https://github.com/willard-yuan/CNN-for-Image-Retrieval) to extract features on other dataset.
