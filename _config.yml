@@ -1,0 +1,13 @@
+# Site settings
+title: PicSearch, CNN for CBIR
+tag_text: PicSearch
+tag_subtext: CNN Web Demo for Image Retrieval
+description: A Image Search Engine Based on Convolutional Neural Network Feature.
+
+# Build settings
+# Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+safe: true
+lsi: false
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "underline"]
